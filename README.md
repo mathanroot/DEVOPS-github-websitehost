@@ -7,14 +7,15 @@ HOST A STATIC WEBISTE THROUGH GITHUB
 git init
 ```
 ```bash
+git remote add origin <repos link>
+```
+```bash
 git add .
 ```
 ```bash
 git commit -m "adding files"
 ```
-```bash
-git remote add origin <repos link>
-```
+
 ```bash
 git pull origin main --rebase
 ```
